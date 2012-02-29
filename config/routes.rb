@@ -1,4 +1,6 @@
 Secondone::Application.routes.draw do
+  get "page2/index"
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
